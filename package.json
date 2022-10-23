@@ -153,7 +153,7 @@
     "@fortawesome/pro-light-svg-icons": "^5.13.0",
     "@fortawesome/pro-regular-svg-icons": "^5.13.0",
     "@fortawesome/pro-solid-svg-icons": "^5.13.0",
-    "@ledgerhq/hw-transport": "5.15.0",
+    "@ledgerhq/hw-transport": "5.51.1",
     "@ledgerhq/hw-transport-node-hid": "5.15.0",
     "ajv": "^6.12.2",
     "angular2-text-mask": "9.0.0",
