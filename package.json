@@ -128,7 +128,7 @@
   ],
   "dependencies": {
     "@ajsf/core": "0.1.4",
-    "@ajsf/material": "0.1.4",
+    "@ajsf/material": "0.8.0",
     "@angular/animations": "9.1.7",
     "@angular/cdk": "9.2.4",
     "@angular/common": "9.1.7",
