@@ -127,7 +127,7 @@
     "node_modules"
   ],
   "dependencies": {
-    "@ajsf/core": "0.1.4",
+    "@ajsf/core": "0.8.0",
     "@ajsf/material": "0.1.4",
     "@angular/animations": "9.1.7",
     "@angular/cdk": "9.2.4",
