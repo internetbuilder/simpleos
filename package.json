@@ -32,7 +32,9 @@
     "release:default": "npm run config:default && npm run build:prod && electron-builder",
     "release:liberland": "npm run config:liberland && npm run build:prod && electron-builder",
     "postinstall": "electron-builder install-app-deps && npm run postinstall:electron",
-    "postinstall:electron": "node scripts/postinstall.js"
+    "postinstall:electron": "node scripts/postinstall.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": ">= 13.0.0",
@@ -209,7 +211,8 @@
     "tar": "^6.0.2",
     "text-mask-addons": "3.8.0",
     "tslib": "^2.0.0",
-    "@webcomponents/webcomponentsjs": "^2.4.3"
+    "@webcomponents/webcomponentsjs": "^2.4.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.901.6",
@@ -241,5 +244,6 @@
     "webpack": "^4.43.0",
     "webpack-dev-server": "^3.11.0",
     "zone.js": "^0.10.3"
-  }
+  },
+  "snyk": true
 }
