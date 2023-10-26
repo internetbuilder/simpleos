@@ -167,7 +167,7 @@
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
     "cors": "^2.8.5",
-    "crypto-js": "^4.0.0",
+    "crypto-js": "^4.2.0",
     "echarts": "^4.7.0",
     "electron-context-menu": "^2.0.1",
     "eosjs": "^21.0.1-rc2",
