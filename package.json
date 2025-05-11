@@ -170,7 +170,7 @@
     "crypto-js": "^4.0.0",
     "echarts": "^4.7.0",
     "electron-context-menu": "^2.0.1",
-    "eosjs": "^21.0.1-rc2",
+    "eosjs": "^21.0.2",
     "express": "^4.17.1",
     "fcbuffer": "^2.2.2",
     "fuse.js": "^3.4.6",
